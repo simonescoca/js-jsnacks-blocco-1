@@ -1,5 +1,5 @@
 const numbersList = []
-sum = 0
+let sum = 0
 
 for (let i = 0 ; i < 10 ; i++) {
     const number = parseFloat ( prompt ("Inserisci il " + (i + 1) + "º numero") )
